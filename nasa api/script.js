@@ -3,7 +3,7 @@
  var image = document.querySelector(".image"); // select the image element
  var explanation = document.querySelector(".explanation"); // select the explanation element
  var link = document.querySelector(".link"); // select the link element
- var apiKey = "0RT5cOg8izvnYgJMUv3ecxCDCGbgWQDn6sXRGbkx"; // use the demo key for testing
+ var apiKey = "API_KEY"; // use the demo key for testing
  var url = "https://api.nasa.gov/planetary/apod?api_key=" + apiKey; // construct the API url
 
  // fetch the data from the API using the fetch method
